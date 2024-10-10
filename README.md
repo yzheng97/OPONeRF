@@ -1,8 +1,6 @@
-# OPONeRF
+# GAUSSIAN-DET: LEARNING CLOSED-SURFACE GAUSSIANS FOR 3D OBJECT DETECTION
 
-## Dataset
+[![Home Page](https://img.shields.io/badge/Project_Page-<Website>-blue.svg)](https://yzheng97.github.io/Gaussian-Det)
 
-* [Cooking-Perturbation](https://cloud.tsinghua.edu.cn/d/90ef1341cd0c4cfebb37/) (Re-organized from N3DV)
-* [MeetRoom-Perturbation](https://github.com/yzheng97/OPONeRF) (Re-organized from MeetRoom)
-* [Generalizable Spatial Reconstruction](https://github.com/googleinterns/IBRNet) (or [here](https://github.com/liuyuan-pal/NeuRay), LLFF & NeRF Synthetic & Spaces & DTU & RealEstate10K)
-* [Generalizable Spatio-temporal Reconstruction](https://github.com/tianfr/MonoNeRF) (Dynamic Scenes)
+# Abstract
+In this paper, we propose a One-Point-One NeRF (OPONeRF) framework for robust scene rendering. Existing NeRFs are designed based on a key assumption that the target scene remains unchanged between the training and test time. However, small but unpredictable perturbations such as object movements, light changes and data contaminations broadly exist in real-life 3D scenes, which lead to significantly defective or failed rendering results even for the recent state-of-the-art generalizable methods. To address this, we propose a divide-and-conquer framework in OPONeRF that adaptively responds to local scene variations via personalizing appropriate point-wise parameters, instead of fitting a single set of NeRF parameters that are inactive to test-time unseen changes. Moreover, to explicitly capture the local uncertainty, we decompose the point representation into deterministic mapping and probabilistic inference. In this way, OPONeRF learns the sharable invariance and unsupervisedly models the unexpected scene variations between the training and testing scenes. To validate the effectiveness of the proposed method, we construct benchmarks from both realistic and synthetic data with diverse test-time perturbations including foreground motions, illumination variations and multi-modality noises, which are more challenging than conventional generalization and temporal reconstruction benchmarks. Experimental results show that our OPONeRF outperforms state-of-the-art NeRFs on various evaluation metrics through benchmark experiments and cross-scene evaluations. We further show the efficacy of the proposed method via experimenting on other existing generalization-based benchmarks and incorporating the idea of One-Point-One NeRF into other advanced baseline methods.
