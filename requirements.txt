@@ -1,0 +1,17 @@
+torch==1.7.1
+opencv-python
+tensorflow==2.4.1
+numpy==1.19.2
+scipy==1.5.2
+easydict
+inplace-abn
+plyfile
+scikit-image
+pyyaml
+h5py
+tqdm
+matplotlib
+lpips
+transforms3d
+tensorboardX
+thop
