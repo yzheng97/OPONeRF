@@ -9,7 +9,7 @@ from utils.draw_utils import output_points
 parser = argparse.ArgumentParser()
 parser.add_argument('--example_name', type=str, default='ear_cup')
 parser.add_argument('--same_camera', action='store_true', dest='same_camera', default=False)
-parser.add_argument('--colmap_path', type=str, default='/opt/Duan_loan/zkf/NeuRay/data/example/colmap/build/src/exe/colmap')
+parser.add_argument('--colmap_path', type=str, default='/path/to/your/colmap/executer')
 flags = parser.parse_args()
 
 def visualize_camera_locations(example_name):
