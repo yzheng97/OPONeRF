@@ -41,7 +41,9 @@ The poses of Cooking-Perturbation and MeetRoom-Perturbation were estimated via [
 
 OPONeRF
 |-- data
+
     |--model
+    
         |-- neuray_gen_depth_train_beef_hyper
     |-- example
         |-- beef_0
