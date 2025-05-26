@@ -39,11 +39,10 @@ bash train_beef.sh
 
 The poses of Cooking-Perturbation and MeetRoom-Perturbation were estimated via [colmap](https://github.com/yzheng97/OPONeRF). 
 
+```
 OPONeRF
 |-- data
-
     |--model
-    
         |-- neuray_gen_depth_train_beef_hyper
     |-- example
         |-- beef_0
@@ -56,6 +55,7 @@ OPONeRF
             |-- beef_1
             ...
             |-- beef_21
+            
 ```
 
 ## Citation
@@ -67,3 +67,4 @@ If you find our work useful in your research, please consider citing:
   journal={arXiv preprint arXiv:2409.20043},
   year={2024}
 }
+```
